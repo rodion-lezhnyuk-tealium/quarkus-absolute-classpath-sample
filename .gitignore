@@ -11,9 +11,6 @@
 .gradle/
 build/
 
-# Ignore Gradle wrapper jar file (since it's not required to be checked into version control)
-gradle-wrapper.jar
-
 # Ignore the gradle cache directory
 .gradle/
 

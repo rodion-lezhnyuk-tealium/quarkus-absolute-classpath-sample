@@ -1,3 +1,5 @@
+Docker environment is needed to reproduce the bug. Bug was reproduced on MacOS 14.4.1 (23E224).
+
 Run `./gradlew build` to reproduce the bug or run test `ContextTest.testContextLoads()` which throws an exception with message: `String too large to record`.
 
 Output of variable `param` at `BytecodeRecorderImpl#681`:
