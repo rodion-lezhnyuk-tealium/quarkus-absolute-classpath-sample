@@ -1,0 +1,30 @@
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# IntelliJ IDEA files
+.idea/
+
+# Gradle files
+.gradle/
+build/
+
+# Ignore Gradle wrapper jar file (since it's not required to be checked into version control)
+gradle-wrapper.jar
+
+# Ignore the gradle cache directory
+.gradle/
+
+# Ignore the .iml files (module files)
+*.iml
+
+# Ignore the .ipr files (project files)
+*.ipr
+
+# Ignore the .iws files (workspace files)
+*.iws
+
+# Ignore generated files by Gradle
+out/

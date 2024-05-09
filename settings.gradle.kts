@@ -1,0 +1,1 @@
+rootProject.name = "quarkus-absolute-classpath-sample"
