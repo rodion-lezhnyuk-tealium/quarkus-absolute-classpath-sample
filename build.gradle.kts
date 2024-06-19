@@ -45,6 +45,7 @@ object Versions {
 
 dependencies {
     implementation(enforcedPlatform("io.quarkus.platform:quarkus-bom:${Versions.quarkus}"))
+    implementation("io.quarkus", "quarkus-core-deployment")
     implementation("io.quarkus", "quarkus-resteasy-jackson")
     implementation("io.quarkus", "quarkus-config-yaml")
     implementation("io.quarkus", "quarkus-smallrye-health")
